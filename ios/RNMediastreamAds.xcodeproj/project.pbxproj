@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA60609228C8CAD0067281F /* RNMediastreamAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA60608228C8CAD0067281F /* RNMediastreamAds.swift */; };
+		0AA6060E228C8D4D0067281F /* RNMediastreamAdsViewBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6060A228C8D4C0067281F /* RNMediastreamAdsViewBanner.swift */; };
+		0AA6060F228C8D4D0067281F /* RNMediastreamAdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6060B228C8D4D0067281F /* RNMediastreamAdsView.swift */; };
+		0AA60610228C8D4D0067281F /* RNMediastreamAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6060C228C8D4D0067281F /* RNMediastreamAdsManager.swift */; };
+		0AA60611228C8D4D0067281F /* RNMediastreamAdsViewIntersitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6060D228C8D4D0067281F /* RNMediastreamAdsViewIntersitial.swift */; };
+		1A48759F281048741B293610 /* libPods-RNMediastreamAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC7F3857389353B2AB8D0DA /* libPods-RNMediastreamAds.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RNMediastreamAds.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMediastreamAds.m */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +29,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0AA60607228C8CAD0067281F /* RNMediastreamAds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNMediastreamAds-Bridging-Header.h"; sourceTree = "<group>"; };
+		0AA60608228C8CAD0067281F /* RNMediastreamAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMediastreamAds.swift; sourceTree = "<group>"; };
+		0AA6060A228C8D4C0067281F /* RNMediastreamAdsViewBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMediastreamAdsViewBanner.swift; sourceTree = "<group>"; };
+		0AA6060B228C8D4D0067281F /* RNMediastreamAdsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMediastreamAdsView.swift; sourceTree = "<group>"; };
+		0AA6060C228C8D4D0067281F /* RNMediastreamAdsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMediastreamAdsManager.swift; sourceTree = "<group>"; };
+		0AA6060D228C8D4D0067281F /* RNMediastreamAdsViewIntersitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMediastreamAdsViewIntersitial.swift; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRNMediastreamAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMediastreamAds.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNMediastreamAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMediastreamAds.h; sourceTree = "<group>"; };
+		62EA4F9C8A7D3A7D8990183F /* Pods-RNMediastreamAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNMediastreamAds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNMediastreamAds/Pods-RNMediastreamAds.debug.xcconfig"; sourceTree = "<group>"; };
+		8AD0F361110DFB83472C04ED /* Pods-RNMediastreamAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNMediastreamAds.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNMediastreamAds/Pods-RNMediastreamAds.release.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMediastreamAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMediastreamAds.m; sourceTree = "<group>"; };
+		DAC7F3857389353B2AB8D0DA /* libPods-RNMediastreamAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNMediastreamAds.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A48759F281048741B293610 /* libPods-RNMediastreamAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,10 +65,34 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNMediastreamAds.h */,
+				0AA6060C228C8D4D0067281F /* RNMediastreamAdsManager.swift */,
+				0AA6060B228C8D4D0067281F /* RNMediastreamAdsView.swift */,
+				0AA6060A228C8D4C0067281F /* RNMediastreamAdsViewBanner.swift */,
+				0AA6060D228C8D4D0067281F /* RNMediastreamAdsViewIntersitial.swift */,
+				0AA60608228C8CAD0067281F /* RNMediastreamAds.swift */,
 				B3E7B5891CC2AC0600A0062D /* RNMediastreamAds.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				D386958991AC6409586C301A /* Pods */,
+				EC25FCD0759F2CFF99683F61 /* Frameworks */,
+				0AA60607228C8CAD0067281F /* RNMediastreamAds-Bridging-Header.h */,
 			);
+			sourceTree = "<group>";
+		};
+		D386958991AC6409586C301A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62EA4F9C8A7D3A7D8990183F /* Pods-RNMediastreamAds.debug.xcconfig */,
+				8AD0F361110DFB83472C04ED /* Pods-RNMediastreamAds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC25FCD0759F2CFF99683F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7F3857389353B2AB8D0DA /* libPods-RNMediastreamAds.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMediastreamAds" */;
 			buildPhases = (
+				FD7BF921F3490523B24BC7A9 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -87,6 +127,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -107,12 +148,42 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FD7BF921F3490523B24BC7A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNMediastreamAds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA6060F228C8D4D0067281F /* RNMediastreamAdsView.swift in Sources */,
+				0AA60611228C8D4D0067281F /* RNMediastreamAdsViewIntersitial.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNMediastreamAds.m in Sources */,
+				0AA60610228C8D4D0067281F /* RNMediastreamAdsManager.swift in Sources */,
+				0AA6060E228C8D4D0067281F /* RNMediastreamAdsViewBanner.swift in Sources */,
+				0AA60609228C8CAD0067281F /* RNMediastreamAds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,33 +273,44 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EA4F9C8A7D3A7D8990183F /* Pods-RNMediastreamAds.debug.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNMediastreamAds;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		58B511F11A9E6C8500147676 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNMediastreamAds;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNMediastreamAds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD0F361110DFB83472C04ED /* Pods-RNMediastreamAds.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNMediastreamAds;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNMediastreamAds-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
